@@ -39,8 +39,8 @@ st.markdown(
 
 BASE_DIR = Path(__file__).resolve().parent
 
-DATA_PATH = BASE_DIR / "customer_churn_dataset(1).csv"
-MODEL_PATH = BASE_DIR / "gradient_boosting_model (1).pkl"
+DATA_PATH = BASE_DIR / "customer_churn_dataset.csv"
+MODEL_PATH = BASE_DIR / "gradient_boosting_model.pkl"
 
 # ==========================================================
 # LOAD DATASET AND MODEL
